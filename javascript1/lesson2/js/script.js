@@ -70,12 +70,18 @@ container.innerHTML = `<p>
 
 /* const list = document.querySelector("ul"); */
 const existingHTML = list.innerHTML;
-const newHTML = "<li>New item at the end</li>";
-list.innerHTML = existingHTML + newHTML;
+/* const newHTML = "<li>New item at the end</li>";
+list.innerHTML = existingHTML + newHTML;  */
 
 /* const list = document.querySelector("ul"); */
-list.innerHTML = list.innerHTML + "<li>New item at the end pt2</li>";
+list.innerHTML = list.innerHTML + "<li>New item at the end #2</li>";
 
 /* const list = document.querySelector("ul"); */
 list.innerHTML = "<li>New item at the beginning</li>" + list.innerHTML;
 
+/* const list = document.querySelector("ul"); */
+const newHTML = `<li class="red">
+                    New item at the end #3
+                </li>`;
+list.innerHTML = list.innerHTML + newHTML;
+list.innerHTML +=newHTML;
