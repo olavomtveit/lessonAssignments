@@ -1,0 +1,9 @@
+body {
+    background: #e8e8e8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
