@@ -1,0 +1,38 @@
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.details {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background: white;
+}
+
+.name {
+    font-size: 16px;
+    margin-bottom: 0.75rem;
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.rating {
+    color: var(--primary-colour);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image {
+    height: 150px;
+    background-size: cover;
+    background-position: center top;
+}
+
+@media (min-width: 900px) {
+    .card {
+        flex: 1;
+    }
+}
